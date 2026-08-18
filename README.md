@@ -2,7 +2,7 @@
 Set up linux by Ronny.
 
 ## ✨ Zsh Prompt
-```zsh
+
 PROMPT='%F{cyan}%~%f '
 alias ls='ls --color=auto'
 

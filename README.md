@@ -1,7 +1,4 @@
-# SETUP_LINUX
-Set up linux by Ronny.
-
-## Zsh Prompt
+# 🐚 Zsh Configuration
 
 ```zsh
 PROMPT='%F{cyan}%~%f '
@@ -19,6 +16,7 @@ unhash d 2>/dev/null
 PROMPT='%F{cyan}${PWD/#\/mnt\/d/~}%f '
 
 cd /mnt/d
+```
 
 # 💤 My Neovim Configuration
 
@@ -191,29 +189,3 @@ require("lazy").setup({
 
 })
 ```
-
-## ⌨️ Keybindings
-
-| Key            | Action             |
-| -------------- | ------------------ |
-| `Space + e`    | Toggle NvimTree    |
-| `Space + ff`   | Find files         |
-| `Space + fg`   | Search text        |
-| `Ctrl + Space` | Open completion    |
-| `Enter`        | Confirm completion |
-| `Tab`          | Next completion    |
-
-## 🎨 Theme
-
-**Gruvbox** with transparent background.
-
-## 🔌 Plugins
-
-* 🎨 Gruvbox
-* 📊 Lualine
-* 🌳 Treesitter
-* 📁 NvimTree
-* 🔭 Telescope
-* ⚡ nvim-cmp
-* ✨ LuaSnip
-* 🔧 lazy.nvim

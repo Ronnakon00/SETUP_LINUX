@@ -1,8 +1,9 @@
 # SETUP_LINUX
 Set up linux by Ronny.
 
-## ✨ Zsh Prompt
+## Zsh Prompt
 
+```zsh
 PROMPT='%F{cyan}%~%f '
 alias ls='ls --color=auto'
 
